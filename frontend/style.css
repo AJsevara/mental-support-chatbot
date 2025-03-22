@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background1.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+
+.input-container {
+    display: flex;  /* Align input & button side by side */
+    gap: 10px; /* Add space between input & button */
+}
+
+input {
+    flex: 1;  /* Input takes available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #fb7318;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    flex-shrink: 0; /* Prevent button from shrinking */
+}
